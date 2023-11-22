@@ -1,5 +1,8 @@
-# siemens-PSC
-Siemens Programming Skills Challenge - Interview
+<h1 align="center"><bold>Siemens Programming Skills Challenge 🚀</bold></h1>
+
+Overview
+--------
+This repository contains the solutions for the Siemens Programming Skills Challenge. The challenge consists of 09 questions, and the solutions are in the `questionXX` folders, where `XX` is the number of the question. The questions are listed below:
 
 Question 03
 -----------
@@ -236,3 +239,12 @@ This question asks for a function that evaluates the length of a string entered 
 Question 11
 -----------
 This question asks for a program that reverses a string informed by the user without using any temporary variable, buffer or any pre-existing function or method for this. So, I developed an algorithm in Java that receives a string, and with this string, I go through each character in it backwards, and with each iteration, I add that character to a resulting string. To facilitate the test, I created a unit test that tests the function with some examples.
+
+
+<br><h2 align="center"><bold>Status and Technologies</bold></h2>
+
+<h4 align="center"> 
+    All the questions are resolved: Work Done - (22/11/2023) <br><br>
+    Languages: Java - MySQL - Logigal Thinking
+</h4>
+  
