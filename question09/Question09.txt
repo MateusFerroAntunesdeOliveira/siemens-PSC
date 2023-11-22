@@ -1,0 +1,22 @@
+Considering the problem on Question09 described in the README.md file:
+
+Solution for Problem 01:
+    "bq" to start the utility
+    "rel ABC" to specify the relation
+    "di" to display the data structure after specifying the relation
+    and then, "x" to exit
+
+Solution for Problem 02:
+    "bq" to start the utility
+    "rel XYZ" to specify the relation
+    "re f" to read the first record in the relation
+    "re l" to read the last record in the relation
+    and then, "x" to exit
+
+Solution for Problem 03:
+    "bq" to start the utility
+    "rel XYZ" to specify the relation
+    "key key<10>" to specify the key to read
+    then, "re k" to read the record associated with the key value identified
+    then, "re n" and "re n" twice to read the next record two times ahead
+    and then, "x" to exit
