@@ -232,3 +232,7 @@ The solution for this question is in the file `question09/Question09.txt` in thi
 Question 10
 -----------
 This question asks for a function that evaluates the length of a string entered by the user, but I cannot use any ready-made function. For this, I developed an algorithm that receives a string, and with this string, I count each iteration until the algorithm finds a '\0' (what represents a word's end). If found, return the number of the counter.
+
+Question 11
+-----------
+This question asks for a program that reverses a string informed by the user without using any temporary variable, buffer or any pre-existing function or method for this. So, I developed an algorithm in Java that receives a string, and with this string, I go through each character in it backwards, and with each iteration, I add that character to a resulting string. To facilitate the test, I created a unit test that tests the function with some examples.
