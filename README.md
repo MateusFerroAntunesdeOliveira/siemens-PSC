@@ -147,3 +147,25 @@ Thus, the following students obtained grades 8, 9 or 10:
 - *Julia (9)*
 - *Marcela (9)*
 - *Andreia (8)*
+
+
+Question 07
+-----------
+An application has four classes: `A`, `B`, `C` and `D`. Classes `B` and `C` are subclasses of `A`. In classes `A`, `B` and `C` there are different attributes and a method called `checkBalance()` with the same signature but which performs operations that return values ​​of type double, however, different. Class `D` is the main class. Within the `main()` method of class `D`, the following instructions were typed:
+
+(1) A* obj = new B(); <br>
+double v = obj->checkBalance();
+
+(2) A* obj1 = new C(); <br>
+double v1 = obj1->checkBalance();
+
+When these lines were executed, the variable `v` received the value 100.00 and the variable `v1` received the value 125.00. Note that both `obj` and `obj1` are type A objects, however, in addition to having different attributes, when calling the `checkBalance()` method through these objects, the return contained in variables `v` and `v1` was different. This shows an example of:
+
+Possible answers:
+- (a) Encapsulation
+- (b) Method overload
+- (c) Multiple inheritance
+- (d) Generalization
+- (e) Polymorphism
+
+The correct answer is `(e) Polymorphism`. The reason is that the same method `checkBalance()` was called through objects of the same type, however, the return was different. This is because the method was overloaded in the subclasses `B` and `C` of the superclass `A`. So this is an example of polymorphism.
