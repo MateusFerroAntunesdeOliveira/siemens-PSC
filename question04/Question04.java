@@ -23,7 +23,7 @@ public class Question04 {
         scanner.close();
     }
 
-    static boolean concatRemove(String s, String t, int k) {
+    public static boolean concatRemove(String s, String t, int k) {
         int commonLength = 0;
 
         // Find the common length of the strings
