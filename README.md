@@ -169,3 +169,19 @@ Possible answers:
 - (e) Polymorphism
 
 The correct answer is `(e) Polymorphism`. The reason is that the same method `checkBalance()` was called through objects of the same type, however, the return was different. This is because the method was overloaded in the subclasses `B` and `C` of the superclass `A`. So this is an example of polymorphism.
+
+Question 08
+-----------
+Information about pets is kept in two separate tables:
+
+TABLE dogs
+id INTEGER NOT NULL PRIMARY KEY,
+name VARCHAR(50) NOT NULL
+
+TABLE cats
+id INTEGER NOT NULL PRIMARY KEY,
+name VARCHAR(50) NOT NULL
+
+With that, write an SQL query that select all distinct pet names.
+
+This is another question about SQL consult, and this one asks for a projection between two tables. The projection must show all the animals (both dogs and cats) distinctly. For this, I developed an algorithm that shows all the animals in one new single table, using the union operator.
