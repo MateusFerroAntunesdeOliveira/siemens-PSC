@@ -6,7 +6,7 @@ This repository contains the solutions for the Siemens Programming Skills Challe
 
 Question 03
 -----------
-Question three is a question that asks for an algorithm that prints the counter value from one to a hundred. If the value is divisible by 3, then prints Foo instead of the value. If the iteration is divisible by 5, then prints Baa. If the iteration is divisible by 3 and 5 simultaneously, it prints FooBaa. And if the number is not divisible by 3 and 5, print the iteration number itself. Furthermore, this code must have the minimum amount of code lines and should be efficient.
+Question three is a question that asks for an algorithm that prints the counter value from one to a hundred. If the value is divisible by `3`, then prints `Foo` instead of the value. If the iteration is divisible by `5`, then prints `Baa`. If the iteration is divisible by `3` and `5` simultaneously, it prints `FooBaa`. And if the number is not divisible by `3` and `5`, print the iteration number itself. Furthermore, this code must have the minimum amount of code lines and should be efficient.
 
 
 Question 04
@@ -46,7 +46,7 @@ Example 1:
 - *8*
 - *yes*
 
-Explanation
+Explanation:
 It took 5 operations to reduce the string "blablablabla" to "blablab". Then, 3 concatenation operations (c, d, e) were needed to obtain the string "blablabcde".
 In this way, as it was possible to convert s to t using exactly k = 8 operations, the program printed "yes".
 
@@ -56,7 +56,7 @@ Example 2:
 - *7*
 - *yes*
 
-Explanation
+Explanation:
 It took 4 operations to reduce the string s (remember that a removal operation on an empty string, keeps the string empty). Then, 3 concatenation operations were performed (a, b, a). Since it was possible to convert s to t using exactly k = 7 operations.
 
 Question 05
@@ -245,6 +245,5 @@ This question asks for a program that reverses a string informed by the user wit
 
 <h4 align="center"> 
     All the questions are resolved: Work Done - (22/11/2023) <br><br>
-    Languages: Java - MySQL - Logigal Thinking
+    Languages: Java - MySQL - Logical Thinking
 </h4>
-  
