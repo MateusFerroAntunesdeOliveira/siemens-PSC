@@ -228,3 +228,7 @@ Continuing with relation XYZ
 What are the sequences of commands to read key value 10 and the next 2 records?
 
 The solution for this question is in the file `question09/Question09.txt` in this repository.
+
+Question 10
+-----------
+This question asks for a function that evaluates the length of a string entered by the user, but I cannot use any ready-made function. For this, I developed an algorithm that receives a string, and with this string, I count each iteration until the algorithm finds a '\0' (what represents a word's end). If found, return the number of the counter.
