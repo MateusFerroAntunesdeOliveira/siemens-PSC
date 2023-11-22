@@ -185,3 +185,46 @@ name VARCHAR(50) NOT NULL
 With that, write an SQL query that select all distinct pet names.
 
 This is another question about SQL consult, and this one asks for a projection between two tables. The projection must show all the animals (both dogs and cats) distinctly. For this, I developed an algorithm that shows all the animals in one new single table, using the union operator.
+
+Question 09
+-----------
+Consider a software utility called 'bq' that allows the user to read runtime, persistent data structures.
+
+
+| Command                   | Description                                                                                       |
+| ------------------------- | ------------------------------------------------------------------------------------------------- |
+| bq                        | Starts utility from linux command prompt                                                          |
+| rel <relation name>       | Specify which data structure, also known as a relation, to access                                 |
+| di                        | Display data structure of relation identified                                                     |
+| key or key <key values>   | Request system to prompt for key values for the relation identified, or specify the key to  read  |
+| re k                      | Read the record associated with the key value identified                                          |
+| re f                      | Read the first record                                                                             |
+| re l                      | Read the last record                                                                              |
+| re n                      | Read the next record                                                                              |
+| re p                      | Read the previous record                                                                          |
+| x                         | Exit the utility                                                                                  |
+-----------
+
+Problem #1
+
+I have a relation ABC. 
+What are the sequence of commands to determine its structure?
+
+Problem #2
+
+I have a relation XYZ.                          
+Its structure is noted below:    
+
+XYZ =  { file (B1) of } record <br>
+    B1   : integer;     { block number   B1 <br>
+    Name : Char8;       { B1 name <br>
+end;
+
+What are the sequence of commands to read the first and last records of relation XYZ?
+
+Problem #3
+
+Continuing with relation XYZ
+What are the sequences of commands to read key value 10 and the next 2 records?
+
+The solution for this question is in the file `question09/Question09.txt` in this repository.
