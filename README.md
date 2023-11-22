@@ -55,3 +55,17 @@ Example 2:
 
 Explanation
 It took 4 operations to reduce the string s (remember that a removal operation on an empty string, keeps the string empty). Then, 3 concatenation operations were performed (a, b, a). Since it was possible to convert s to t using exactly k = 7 operations.
+
+Question 05
+-----------
+This question requires a unit test to be developed for the function concatRemove(s, t, k) developed in question 04. The unit test should be developed in C/C++ or Java language and should be able to test the function in different cenarios:
+
+Like:
+- (1) Input: `"abc"`, Desired: `"abcd"`, Movements: `1`, Result: `true`),
+- (2) Input: `"abc"`, Desired: `"abcd"`, Movements: `0`, Result: `false`),
+- (3) Input: `"abc"`, Desired: `"xyz"`, Movements: `6`, Result: `true`),
+- (4) Input: `"abc"`, Desired: `"xyz"`, Movements: `5`, Result: `false`),
+- (5) Input: `"blablablabla"`, Desired: `"blablabcde"`, Movements: `8`, Result: `true`),
+- (6) Input: `"tab"`, Desired: `"tab"`, Movements: `7`, Result: `true`)
+
+In these examples, the function should return `true` for the first, third, fifth and sixth cases (representing the result 'yes' in the question 04). And `false` for the second and fourth cases (representing the result 'no' in the question 04).
